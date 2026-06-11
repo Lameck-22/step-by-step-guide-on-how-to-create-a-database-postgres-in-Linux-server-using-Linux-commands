@@ -1,5 +1,41 @@
 
 # step-by-step-guide-on-how-to-create-a-database-postgres-in-Linux-server-using-Linux-commands
+Data Engineers mostly works with databases so I created one of them using Linux servers following the highkighted steps below:
+
+## 1. Server Access
+Log into the server using SSH on port 22.
+Host:
+159.65.222.96
+User:
+root
+
+  
+## 2. User Creation
+Create a Linux user account using the following format:
+- Username: your first name + surname initial
+- Example: If your name is Jane Doe → JaneD
+
+ 
+## 3. PostgreSQL Setup
+Check if PostgreSQL is installed:
+psql --version
+
+If PostgreSQL is not installed, install it.
+ 
+If it is installed, ensure the PostgreSQL service is running and accessible.
+ 
+Also ensure that:
+ 
+- The server allows external connections on port 5432
+- Users can successfully connect remotely to PostgreSQL
+
+ 
+## 4. Database Setup
+- Create a database using the same name as your Linux username
+- Create a schema called staging
+- Generate sample data of your choice (any dataset you prefer)
+- Upload/insert the data into the staging schema in your database
+  
 <img width="1366" height="768" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/971d24ab-a358-4503-a133-dd935cbee545" />
 <img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/847f9470-7147-49b0-a262-957b4c04c448" />
 <img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/aaf92998-c12b-474a-82d6-a30999927c30" />

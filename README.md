@@ -55,6 +55,10 @@ Also ensure that:
   
 <img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/aaf92998-c12b-474a-82d6-a30999927c30" />
 <img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/8b644136-0925-4df3-b42b-ceac0db1bea9" />
+
+### STEP 4: Add User
+- To add user we use the command sudo adduser lamecko
+- Point to note is that all the installations should be done under the user created and not in the superuser.
 <img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/15ad2958-7cd0-474a-9e5c-80dde7f8c716" />
 <img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/8cc5091e-53b8-42c0-b880-83f60e44c5b3" />
 <img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/59922135-d0f4-41f6-8d45-6e4ccf3ca589" />

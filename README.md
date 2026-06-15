@@ -59,7 +59,12 @@ Also ensure that:
 ### STEP 4: Add User
 - To add user we use the command sudo adduser lamecko
 - Point to note is that all the installations should be done under the user created and not in the superuser.
+  
 <img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/15ad2958-7cd0-474a-9e5c-80dde7f8c716" />
+
+### STEP 5 : Postgresql Interractive mode
+- First you ensure that the status of postgresql is started and active using the command sudo systemctl status postgresql.
+- If it is active and running we can make postgresql interractive using command sudo -i -u postgresql
 <img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/8cc5091e-53b8-42c0-b880-83f60e44c5b3" />
 <img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/59922135-d0f4-41f6-8d45-6e4ccf3ca589" />
 <img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/df047098-3c8f-458d-9972-a5d65b8bf8b5" />

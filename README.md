@@ -48,10 +48,10 @@ Also ensure that:
 ### STEP 3: Postgresql
 - Use command psql --version to check if the postgresql is installed if not use sudo apt install postgresql postgresql -contrib -y
 - Primary PostgreSQL Service Controls
-  . Start service:sudo systemctl start postgresql
-  . Stop service: sudo systemctl stop postgresql
- . Restart service: sudo systemctl restart postgresql
-  . Reload configuration: sudo systemctl reload postgresql (Applies settings changes without closing active database connections)
+  - Start service:sudo systemctl start postgresql
+  - Stop service: sudo systemctl stop postgresql
+  - Restart service: sudo systemctl restart postgresql
+  - Reload configuration: sudo systemctl reload postgresql (Applies settings changes without closing active database connections)
   
 <img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/aaf92998-c12b-474a-82d6-a30999927c30" />
 <img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/8b644136-0925-4df3-b42b-ceac0db1bea9" />

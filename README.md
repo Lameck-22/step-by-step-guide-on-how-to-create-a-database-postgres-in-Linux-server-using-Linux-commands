@@ -40,6 +40,9 @@ Also ensure that:
 - To access the remote server we use the command ssh user@ipaddress and then you enter the password for the remote server like in the case below.
   
 <img width="1366" height="768" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/971d24ab-a358-4503-a133-dd935cbee545" />
+
+### STEP 2
+- The sudo apt update command refreshes the local database of available software packages and their latest versions, allowing your system to know exactly which updates, security patches, and new applications are available to install.
 <img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/847f9470-7147-49b0-a262-957b4c04c448" />
 <img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/aaf92998-c12b-474a-82d6-a30999927c30" />
 <img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/8b644136-0925-4df3-b42b-ceac0db1bea9" />

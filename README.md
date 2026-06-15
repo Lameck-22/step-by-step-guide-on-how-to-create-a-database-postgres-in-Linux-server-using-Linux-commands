@@ -44,6 +44,15 @@ Also ensure that:
 ### STEP 2
 - The sudo apt update command refreshes the local database of available software packages and their latest versions, allowing your system to know exactly which updates, security patches, and new applications are available to install.
 <img width="1366" height="768" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/847f9470-7147-49b0-a262-957b4c04c448" />
+
+### STEP 3: Postgresql
+- Use command psql --version to check if the postgresql is installed if not use sudo apt install postgresql postgresql -contrib -y
+- Primary PostgreSQL Service Controls
+  . Start service:sudo systemctl start postgresql
+  . Stop service: sudo systemctl stop postgresql
+ . Restart service: sudo systemctl restart postgresql
+  . Reload configuration: sudo systemctl reload postgresql (Applies settings changes without closing active database connections)
+  
 <img width="1366" height="768" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/aaf92998-c12b-474a-82d6-a30999927c30" />
 <img width="1366" height="768" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/8b644136-0925-4df3-b42b-ceac0db1bea9" />
 <img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/15ad2958-7cd0-474a-9e5c-80dde7f8c716" />

@@ -68,15 +68,20 @@ Also ensure that:
 <img width="1366" height="768" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/8cc5091e-53b8-42c0-b880-83f60e44c5b3" />
 <img width="1366" height="768" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/59922135-d0f4-41f6-8d45-6e4ccf3ca589" />
 
-These administrative shortcuts must be run inside the interactive psql shell and always begin with a backslash (\). 
-\l: List all databases.
-\c database_name: Connect to a different database.
-\dt: List all tables in the current database.
-\d table_name: Describe a table schema (columns, data types, and keys).
-\du: List all database users and their roles.
-\conninfo: Display current connection details (user, host, port).
-\?: Open the help menu for meta-commands.
-\q: Exit the psql console.
+### STEP 6: CREATING DATABASE
+- Inside the interractive mode we can create database using the commands below
+- CREATE DATABASE lamecko;
+- CREATE USER lamecko WITH PASSWORD '1234';
+
+You can use these administrative shortcuts must be run inside the interactive psql shell and always begin with a backslash (\). 
+- \l: List all databases.
+- \c database_name: Connect to a different database.
+- \dt: List all tables in the current database.
+- \d table_name: Describe a table schema (columns, data types, and keys).
+- \du: List all database users and their roles.
+- \conninfo: Display current connection details (user, host, port).
+- \?: Open the help menu for meta-commands.
+- \q: Exit the psql console.
 
 <img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/df047098-3c8f-458d-9972-a5d65b8bf8b5" />
 <img width="1366" height="768" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/b1c56205-384e-4379-bc1b-5936ee91ebe6" />

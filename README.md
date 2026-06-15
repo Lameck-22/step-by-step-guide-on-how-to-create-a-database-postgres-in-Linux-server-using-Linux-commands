@@ -47,6 +47,8 @@ Also ensure that:
 
 ### STEP 3: Postgresql
 - Use command psql --version to check if the postgresql is installed if not use sudo apt install postgresql postgresql -contrib -y
+- postgresql installs the database server.
+- postgresql-contrib installs extra useful PostgreSQL tools and extensions
 - Primary PostgreSQL Service Controls
   - Start service:sudo systemctl start postgresql
   - Stop service: sudo systemctl stop postgresql

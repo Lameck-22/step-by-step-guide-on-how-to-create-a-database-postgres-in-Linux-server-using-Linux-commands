@@ -87,6 +87,11 @@ You can use these administrative shortcuts must be run inside the interactive ps
 - \q: Exit the psql console.
 
 <img width="1366" height="768" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/df047098-3c8f-458d-9972-a5d65b8bf8b5" />
+
+### Enabling External Connection
+- To enable external connection of our database for example to dbeaver we need to manipulate certain files in postgresql that is postgres.conf and ph-hba
+- Inside postgres.conf we search for the listening address and change the localhost to (*) to enable connection to the database.
+- And adding  "host    all             all             0.0.0.0/0               md5" at the bottom inside the ph-hba file
 <img width="1366" height="768" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/b1c56205-384e-4379-bc1b-5936ee91ebe6" />
 <img width="1366" height="768" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/a4751a33-3e01-48db-943c-914a1b49ad62" />
 

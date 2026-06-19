@@ -93,6 +93,9 @@ You can use these administrative shortcuts must be run inside the interactive ps
 - Inside postgres.conf we search for the listening address and change the localhost to (*) to enable connection to the database.
 - And adding  "host    all             all             0.0.0.0/0               md5" at the bottom inside the ph-hba file
 <img width="1366" height="768" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/b1c56205-384e-4379-bc1b-5936ee91ebe6" />
+
+### STEP 7 : Accessing the database in Dbeaver
+- I created a new connection for postgresql, host was ip address, port 5432, database lamecko, password 1234, Tested connection and finished the connection as below.
 <img width="1366" height="768" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/a4751a33-3e01-48db-943c-914a1b49ad62" />
 
 

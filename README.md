@@ -60,7 +60,8 @@ Also ensure that:
 
 ### STEP 4: Add User
 - To add user we use the command sudo adduser lamecko
-- Point to note is that all the installations should be done under the user created and not in the superuser.
+- Point to note is that all the installations should be done under the user created and not in the superuser(which I used).
+- To check how to do use users and not the main user check this link https://dev.to/david_mwandairo_777f888b4/linux-fundamentals-for-data-engineering-1hii
   
 <img width="1366" height="768" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/15ad2958-7cd0-474a-9e5c-80dde7f8c716" />
 
